@@ -1,9 +1,9 @@
 {
-  "name": "places.js",
+  "name": "@yproximite/algolia-places-with-fixed-zepto",
   "version": "1.11.0",
   "description": "🌐 Turn any <input> into an address autocomplete.",
-  "main": "index.js",
-  "jsdelivr": "dist/cdn/places.min.js",
+  "main": "dist/cdn/places.js",
+  "files": ["dist/cdn/places.js"],
   "scripts": {
     "build": "NODE_ENV=production ./scripts/build.sh",
     "dev": "./scripts/dev.sh",
